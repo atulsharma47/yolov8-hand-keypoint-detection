@@ -3,3 +3,7 @@ __pycache__/
 *.json
 *.jpg
 *.png
+__pycache__/
+*.pyc
+venv/
+.DS_Store
