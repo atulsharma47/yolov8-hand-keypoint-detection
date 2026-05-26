@@ -1,9 +1,5 @@
 __pycache__/
-*.pt
-*.json
-*.jpg
-*.png
-__pycache__/
 *.pyc
 venv/
+.env
 .DS_Store
