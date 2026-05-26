@@ -6,7 +6,7 @@ Real-time wrist keypoint detection using YOLOv8 and OpenCV.
 
 ## Demo
 
-![Output](assets/annotated_image.jpg)
+![Output](outputs/annotated_image.jpg)
 
 ---
 
