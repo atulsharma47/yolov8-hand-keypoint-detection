@@ -1,22 +1,27 @@
 # YOLOv8 Human Pose Wrist Keypoint Detection
 
-Real-time wrist keypoint detection using YOLOv8 and OpenCV.
+Real-time wrist keypoint detection using YOLOv8 pose estimation and OpenCV.
 
 ---
 
-## Demo
+## Overview
 
-![Output](outputs/annotated_image.jpg)
+This project uses the YOLOv8 pose model to detect human body keypoints and extract wrist coordinates from input images.
+
+The detected wrist points are:
+- highlighted on the image
+- exported as JSON data
+- saved as output files
 
 ---
 
 ## Features
 
-- Human pose detection using YOLOv8
+- YOLOv8 pose estimation
 - Wrist keypoint extraction
-- Annotated output image generation
-- JSON output for detected coordinates
-- Clean and organized project structure
+- Annotated output image
+- JSON export support
+- Organized project structure
 
 ---
 
@@ -44,3 +49,76 @@ yolov8-hand-keypoint-detection/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/atulsharma47/yolov8-hand-keypoint-detection.git
+```
+
+Move into the project directory:
+
+```bash
+cd yolov8-hand-keypoint-detection
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+Run the project:
+
+```bash
+python src/hand_pose.py
+```
+
+---
+
+## Output
+
+The project generates:
+
+- Annotated output image
+- Wrist coordinate JSON file
+
+Saved inside:
+
+```text
+outputs/
+```
+
+---
+
+## Sample Output
+
+<p align="center">
+  <img src="outputs/annotated_image.jpg" width="500"/>
+</p>
+
+---
+
+## Future Improvements
+
+- Real-time webcam detection
+- Multi-person tracking
+- Gesture recognition
+- Streamlit web app
+
+---
+
+## Author
+
+Atul Sharma
+
+GitHub: https://github.com/atulsharma47
